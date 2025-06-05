@@ -379,3 +379,4 @@ This research was made possible through the integration of several open-source f
 David James - david@othertales.co
 
 Project Link: [https://github.com/othertales/othertales-q](https://github.com/othertales/othertales-q)
+Copyright © 2025 Adventures of the Persistently Impaired (...and Other Tales) Limited of 85 Great Portland Street, London W1W 7LT under exclusive license to Other Tales LLC of 8 The Green, Suite B, Dover DE 19901 United States.
