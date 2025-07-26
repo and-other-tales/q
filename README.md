@@ -1,3 +1,5 @@
+[![License: Proprietary](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE.md)
+
 # Othertales Q: Agent-Based PCB Design Automation Framework
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
