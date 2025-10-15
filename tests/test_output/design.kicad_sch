@@ -1,0 +1,95 @@
+(kicad_sch
+  (version 20230121)
+  (generator "Othertales Q PCB Agent")
+  (general
+    (project_name "PCB_Design")
+  )
+  (page "A4")
+  
+  (lib_symbols
+    (symbol "Symbol_1"
+      (pin_names (offset 1.016))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "M"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Arduino Uno R3"
+        (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Arduino_Uno_R3"
+        (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" ""
+        (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Symbol_1_0_1"
+        (rectangle (start -5.08 5.08) (end 5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "Symbol_1_1_1"
+        (pin input line (at -7.62 2.54 0) (length 2.54)
+          (name "IN" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 2.54 180) (length 2.54)
+          (name "OUT" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+  
+  (junction (at 100 100) (diameter 0) (color 0 0 0 0)
+    (uuid "12345678-1234-1234-1234-123456789abc")
+  )
+  
+  (symbol
+    (lib_id "Symbol_1")
+    (at 50 50 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "component-00000001-1234-1234-1234-123456789abc")
+    (property "Reference" "M1"
+      (at 50 42.38 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Arduino Uno R3"
+      (at 50 57.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Arduino_Uno_R3"
+      (at 50 50 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" ""
+      (at 50 50 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid "pin-00000001-1234-1234-1234-123456789abc"))
+    (pin "2" (uuid "pin-00000001-1234-1234-1234-123456789abd"))
+    (instances
+      (project "design"
+        (path "/")
+        (reference "M1")
+        (unit 1)
+      )
+    )
+  )
+  
+  (wire (pts (xy 80 50) (xy 100 50))
+    (stroke (width 0) (type default))
+    (uuid "wire-12345678-1234-1234-1234-123456789abc")
+  )
+  
+)

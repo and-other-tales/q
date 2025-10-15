@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "othertales_q": "./src/agent/graph.py:graph"
+  },
+  "env": ".env"
+}

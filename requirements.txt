@@ -1,0 +1,32 @@
+langchain>=0.3.27
+langchain-core>=0.3.79
+langchain-community>=0.3.31
+langgraph>=0.6.10
+transformers>=4.57.1
+torch>=2.8.0
+accelerate>=1.10.1
+bitsandbytes>=0.48.1
+sentencepiece>=0.2.1
+protobuf>=6.32.1
+
+# Enhanced component database dependencies
+aiohttp>=3.13.0
+pypdf>=6.1.1
+requests>=2.32.5
+python-dotenv>=1.1.1
+gitpython>=3.1.45
+
+# Web API dependencies
+fastapi>=0.119.0
+uvicorn>=0.37.0
+
+# Advanced simulation and analysis dependencies
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+python-dateutil>=2.8.2
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
